@@ -18,11 +18,11 @@ function IncomeExpense() {
     <div className="income-expense-container">
       <div className="income-box">
         <h4>INCOME</h4>
-        <p className="income-amount">${income}</p>
+        <p className="income-amount">₹{income}</p>
       </div>
       <div className="expense-box">
         <h4>EXPENSE</h4>
-        <p className="expense-amount">${expense}</p>
+        <p className="expense-amount">₹{expense}</p>
       </div>
     </div>
   );
