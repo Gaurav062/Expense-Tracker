@@ -11,7 +11,7 @@ function Transactions() {
             <div className="transaction-details">
               <span className="transaction-text">{transaction.text}</span>
               <span className={`transaction-amount ${transaction.amount < 0 ? 'minus' : 'plus'}`}>
-                {transaction.amount < 0 ? '-' : '+'}${Math.abs(transaction.amount)}
+                {transaction.amount < 0 ? '-' : '+'}₹{Math.abs(transaction.amount)}
               </span>
             </div>
             <button 
